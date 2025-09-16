@@ -1,34 +1,25 @@
-# 📸 React QR Scanner
+# 📸 Scanflow React
 
-A lightweight, browser-based **QR Code Scanner** built with **React.js**.  
-This project allows users to **scan QR codes in real-time using their device’s camera** or by **uploading an image**.  
-It is designed to be fast, responsive, and easily extensible for real-world applications.
+A lightweight **React QR scanner** with a clean demo UI, **ROI-ready overlay**, **single-beep de-dup**, **torch/zoom controls**, and optional **Supabase logging**. PWA-ready build with Vite.
 
----
+![React](https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=000)
+![License](https://img.shields.io/badge/License-MIT-informational)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Made by Arushi](https://img.shields.io/badge/made_by-Arushi_Mathur-blue)
 
-## 🚀 Features
+> Live Demo: _add your Vercel/Netlify link_
 
-- 📷 **Live Camera Scanning** – Scan QR codes instantly using your webcam/camera.  
-- 🖼️ **Image Upload Support** – Decode QR codes from uploaded images.  
-- 💻 **Cross-Browser Compatible** – Works on all major browsers.  
-- 📱 **Responsive UI** – Optimized for desktop and mobile devices.  
-- ⚡ **Lightweight & Fast** – Minimal dependencies for smooth performance.  
+## 🔍 What Makes It Unique
+- Customizable finder (ROI) overlay (design-ready)
+- Smart “single-beep” de-dup per QR content
+- Torch & zoom toggles with capability detection
+- Optional Supabase logging for scan history
+- PWA-ready build
 
----
+## 🛠 Tech
+React 18, TypeScript, Vite
 
-## 🛠️ Tech Stack
-
-- **Frontend:** React.js (Hooks & Functional Components)  
-- **Styling:** CSS / TailwindCSS (customizable)  
-- **QR Scanning:** [`react-qr-scanner`]  
-- **Build Tool:** Vite / Create React App  
-
----
-
-## ⚙️ Installation & Setup
-
-Clone the repository:
-
+## ▶️ Run locally
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+npm install
+npm run dev

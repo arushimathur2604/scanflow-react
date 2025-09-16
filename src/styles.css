@@ -1,0 +1,10 @@
+html, body, #root { height: 100%; margin: 0; }
+button {
+  border: 1px solid #e5e7eb;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover { background: #f9fafb; }
+.scanner { background: #0b1020; }
